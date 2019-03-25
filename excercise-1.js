@@ -29,7 +29,7 @@ END IF;
 STORE "Laundry" with 0;
 
 WHILE "Laundry" less than 20;
-    DISPLAY "Total clothes entered is" plus " " plus "Laundry";
+    DISPLAY "Total clothes entered is " plus "Laundry";
     DISPLAY "Do not turn on the washing machine";
     ADD "Laundry" by 1;
 END WHILE;
@@ -40,7 +40,7 @@ DISPLAY "20 clothes is in, turn on the washing machine";
 STORE "Student" with 0;
 
 WHILE "Student" less than 41;
-    DISPLAY "Student number" plus " " plus "Student";
+    DISPLAY "Student number " plus "Student";
     DISPLAY "Student nail's long? true/false";
     SET "LongNail" with true or false;
     IF "LongNail" is true;
