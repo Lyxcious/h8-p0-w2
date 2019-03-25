@@ -37,10 +37,10 @@ END WHILE;
 DISPLAY "20 clothes is in, turn on the washing machine";
 
 //NUMBER 4//
-STORE "Student" with 0;
+STORE "Students" with 0;
 
-WHILE "Student" less than 41;
-    DISPLAY "Student number " plus "Student";
+WHILE "Students" less than 41;
+    DISPLAY "Student number " plus "Students";
     DISPLAY "Student nail's long? true/false";
     SET "LongNail" with true or false;
     IF "LongNail" is true;
@@ -48,4 +48,5 @@ WHILE "Student" less than 41;
     ELSE;
         DISPLAY "Student get praised";
     END IF;
+    ADD "Students"
 END WHILE;
