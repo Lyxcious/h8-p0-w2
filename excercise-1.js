@@ -48,5 +48,5 @@ WHILE "Students" less than 41;
     ELSE;
         DISPLAY "Student get praised";
     END IF;
-    ADD "Students"
+    ADD "Students" by 1;
 END WHILE;
