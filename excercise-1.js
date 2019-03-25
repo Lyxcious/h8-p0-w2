@@ -1,4 +1,4 @@
-//NUMBER 1//
+//1. Newton Second Law
 STORE "m" with 600;
 STORE "a" with 2;
 STORE "F" without any value;
@@ -8,7 +8,7 @@ SET "F" value with calculation result;
 
 DISPLAY "F";
 
-//NUMBER 2//
+//2. Tahun Kabisat
 STORE "Year" with any value;
 
 IF "Year" mod 4 equal to 0;
@@ -25,7 +25,7 @@ ELSE;
     DISPLAY "Not Leap Year";
 END IF;
 
-//NUMBER 3//
+//3. Laundry Day
 STORE "Laundry" with 0;
 
 WHILE "Laundry" less than 20;
@@ -36,7 +36,7 @@ END WHILE;
 
 DISPLAY "20 clothes is in, turn on the washing machine";
 
-//NUMBER 4//
+//4. Periksa Kuku
 STORE "Students" with 0;
 
 WHILE "Students" less than 41;
