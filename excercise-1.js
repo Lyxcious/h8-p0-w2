@@ -37,8 +37,7 @@ END WHILE;
 DISPLAY "20 clothes is in, turn on the washing machine";
 
 //4. Periksa Kuku
-STORE "Students" with 0;
-
+STORE "Students" with 1;
 WHILE "Students" less than 41;
     DISPLAY "Student number " plus "Students";
     DISPLAY "Student nail's long? true/false";
