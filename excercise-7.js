@@ -27,7 +27,7 @@ while (baris < row3){
     bintang2 = "*";
     baris += 1;
     var kolom = 1;
-    while (kolom < i){
+    while (kolom < baris){
         bintang2 = bintang2 + "*";
         kolom += 1;
     }
