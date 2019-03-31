@@ -1,6 +1,13 @@
 function xo(str) {
-    var oTotal = str.match(/o/g).length;
-    var xTotal = str.match(/x/g).length;
+    var oTotal = 0;
+    var xTotal = 0;
+    for (var i = 0; i <= str.length-1; i++){
+        if (str.charAt(i) == "o"){
+            oTotal++;
+        } else if (str.charAt(i) == "x") {
+            xTotal++;
+        }
+    }
     if (oTotal === xTotal){
         return true;
     } else {
